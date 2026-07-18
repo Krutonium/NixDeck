@@ -1,10 +1,8 @@
 { ... }:
 {
-  flake.nixosModules.budgie =
+  flake.nixosModules.desktop =
     { ... }:
     {
-      services.desktopManager.budgie =  {
-        enable = true;
-      };
+      services.desktopManager.plasma6.enable = true;
     };
 }

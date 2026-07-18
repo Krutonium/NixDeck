@@ -6,7 +6,7 @@
       boot
       inputs.jovian-nixos.nixosModules.default
       inputs.disko.nixosModules.default
-      budgie
+      desktop
     ];
   };
   flake.nixosModules.SteamDeckModule =
@@ -90,7 +90,7 @@
           enable = true;
           autoStart = true;
           user = "Krutonium";
-          desktopSession = "budgie-desktop";
+          desktopSession = "plasma";
           updater.splash = "bgrt";
         };
         decky-loader.enable = true;
